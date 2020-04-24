@@ -49,7 +49,7 @@ class SeleniumTests:
         else:
             fail_message = f"Failed to create user: {uname},Password: {pass1}, email {em}"
             logging.warning(fail_message)
-
+        self.browser.close()
 
 
     def run_test(self,workers=50, users=1000):

@@ -8,10 +8,17 @@ class OverloadaAPI(TaskSet):
     @task(1)
     def load_api(self):
         # POST to login page with csrftoken
-        payload = [{ "todo": "Some data","todo_due_date": "2020-04-15","todo_status": "todo","user_id": "bgw254"}]
+        payload = [
+                        {
+                            "todo": "Some data",
+                            "todo_due_date": "2020-04-15",
+                            "todo_status": "todo",
+                            "user_id": "bgw254"
+                        }
+                    ]
 
         self.client.get(
-            url= 'api/v2/todos_add/?items=[{ "todo": "Some data","todo_due_date": "2020-04-15","todo_status": "todo","user_id": "bgw254"}]'
+            url= f'api/v2/todos_add/?items={payload}'
         )
 
 
