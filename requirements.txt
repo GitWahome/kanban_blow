@@ -2,6 +2,7 @@ bcrypt==3.1.7
 chardet==3.0.4
 click==7.1.1
 cycler==0.10.0
+email-validator == 1.0.5
 Flask==1.1.2
 Flask-Admin==1.5.4
 Flask-API==2.0
