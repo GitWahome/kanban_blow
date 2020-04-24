@@ -1,8 +1,15 @@
 # Simple Kanban
+
+A live version of the app can be found here:
+https://kanban-break.herokuapp.com/
+
+
 ![Drag Racing](https://d30s2hykpf82zu.cloudfront.net/wp-content/uploads/2018/11/Simple-Kanban-Board-1024x628.png)
 
 ## Instructions
-This is a minimalistic kanban board. 
+This is a minimalistic kanban board. As a project, it is a modified version of the usual flask structure. Note the templates and static files are a level higher, kanban is a module, and within the proc file, we specify for web gunicorn to run the module runner file, run.py which has the __main__ method, which runs the app.
+
+We also specify the location of the template and static folders when initiating the app.
 
 ### Installation
 
@@ -13,12 +20,10 @@ Clone the app:
 $ git clone https://github.com/GitWahome/kanban_blow
 ```
 
-Extract then navigate one level down, extract the zip file since it has all the files compressed:
+Extract then navigate one level down,:
 ```sh
 $ unzip kanban_blow-master
 $ cd kanban_blow-master
-$ unzip kanban_blow
-$ cd kanban_blow
 ```
 
 Install the requirements:
