@@ -74,13 +74,14 @@ footer {
 	display: inline-block;
 	height: fit-content;
 	background-color: aliceblue;
-	width: fit-content;
+	width: 100%;
 	border: 5px solid #cad9f5;
 	margin: auto;
 }
 .todo_d {
     display: inline-block;
     float: left;
+	min-width:300px !important;
 	padding: 1%;
 	background-color: rgba(245, 0, 66, 0.21);
 }
@@ -89,18 +90,20 @@ footer {
 	display: inline-block;
 	float: left;
 	padding: 1%;
+	min-width:300px !important;
 	background-color: rgba(245, 242, 0, 0.2);
 }
 .done_d {
     display: inline-block;
     float: left;
 	padding: 1%;
+	min-width:300px !important;
 	background-color: rgba(75, 245, 0, 0.21)
 }
 
 .todo_buttons{
 	margin: auto;
-	padding: 27%;
+	padding: 5%;
 	font-size: xx-large;
 }
 .update_button {

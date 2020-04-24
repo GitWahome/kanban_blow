@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/break-a-tag" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kanban/templates" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/templates" vcs="Git" />
   </component>
 </project>

@@ -7,5 +7,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/templates/todo.db</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="todo [2]" uuid="8f8b9947-d543-44a3-8388-29739c2056db">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/kanban/todo.db</jdbc-url>
+    </data-source>
   </component>
 </project>
