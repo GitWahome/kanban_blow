@@ -7,7 +7,7 @@ from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
 
 
-app = Flask(__name__)
+app = Flask(__name__,static_folder="./static",template_folder="./templates")
 api = FlaskAPI(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///todo.db"
 app.config["TEMPLATES_AUTO_RELOAD"] = True
